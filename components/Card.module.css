@@ -1,0 +1,22 @@
+.card {
+  background-color: #f9b200;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  width: 100%;
+  max-width: 300px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive Layout for Cards Container */
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+  }
+}
